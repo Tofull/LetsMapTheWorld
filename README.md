@@ -14,8 +14,7 @@ I wonder where are people on the Internet. First, I made this project with PHP (
 On a server, simply launch : npm install 
 
 ## Tests
-
-Describe and show how to run the tests with code examples.
+Link is comming soon
 
 ## Contributors
 
@@ -24,4 +23,4 @@ Loic Messal - French Student at National School of Geomatics : <loic.messal@ensg
 
 ## License
 
-Free to use but please cite the autor.
+Fell free to use but please cite the autor.
