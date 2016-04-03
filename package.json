@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "description": "Carte des personnes connectées à internet à travers le monde en temps réel",
   "main": "app.js",
-  "dependencies": {},
+  "dependencies": {
+    "socket.io": "^1.4.5"
+  },
   "devDependencies": {
-    "mysql": "^2.10.2",
-    "socket.io": "^1.4.5",
-    "underscore": "^1.8.3"
+    "socket.io": "^1.4.5"
   },
   "scripts": {
     "start": "node app.js"

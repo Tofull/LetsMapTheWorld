@@ -7,6 +7,10 @@
 var http = require('http');
 var fs = require('fs');
 
+
+ 
+
+
 // Chargement du fichier index.html affiché au client
 var server = http.createServer(function(req, res) {
     fs.readFile('./index.html', 'utf-8', function(error, content) {
@@ -53,4 +57,10 @@ io.sockets.on('connection', function (socket, pseudo) {
 });
 
 
-server.listen(8080);
+
+var server_port = process.env.OPENSHIFT_NODEJS_PORT || 8080;
+var server_ip_address = process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1';
+
+server.listen(server_port, server_ip_address, function () {
+  console.log( "Listening on " + server_ip_address + ", server_port " + port )
+});
