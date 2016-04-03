@@ -6,7 +6,7 @@
 			Carte du monde d'Internet en temps réel
         </title>
 		<meta autor="Loic Messal">
-		<link rel="stylesheet" href="leaflet.css" type="text/css"/>
+		<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
 		<style>
 			html{
 				height:auto;
@@ -56,12 +56,9 @@
 		<center><div id="nombreClients"></div></center>
 		<footer>Copyright © 2016 <a href="https://fr.linkedin.com/in/loicmessal" >Loic Messal</a></footer>
 		
-
-
-
-		<script type="text/javascript" src="leaflet.js"></script>
-		<script type="text/javascript" src="//code.jquery.com/jquery-1.10.1.min.js"></script>
-        <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+		<script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+		<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+        <script src="/socket.io/socket.io.js"></script>
 
         <script>
         	// Acces DOM
@@ -87,8 +84,7 @@
 
 
 			// Connexion au serveur
-			var socket = io.connect('http://localhost:8080');
-
+			var socket = io.connect('wss://agile-springs-86439.herokuapp.com/');
 
 			// Un nouveau client vient de se connecter au serveur
 			socket.on('new_client', function(data) {
