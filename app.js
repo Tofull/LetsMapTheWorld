@@ -20,6 +20,8 @@ var server = http.createServer(function(request, response) {
     var extname = path.extname(filePath);
     var contentType = 'text/html';
     switch (extname) {
+    	case '.ico':
+    		return;
         case '.js':
             contentType = 'text/javascript';
             break;
