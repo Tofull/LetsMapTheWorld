@@ -3,55 +3,62 @@
 	<head>
 		<meta charset="UTF-8">
         <title>
-			Carte du monde d'Internet en temps réel
+			Carte du monde en temps réel
         </title>
 		<meta autor="Loic Messal">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 		<link rel="stylesheet" href="https://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
 		<style>
-			html{
-				height:auto;
-			    max-height:100%;
-			    overflow:auto; 
-			}
-			
-			body {
-				background-color: #FFFFFF;
-				height: 100%;
-				margin:auto;
-			}
-
-			header{
-				text-align:center;
-				margin:auto;
-			}
-			
-			html, body, #map {
-			  height:95%;
-			  width:95%;
-			  padding:0px;
-			  margin:auto;
-			  margin-top:2.5%;
-			} 
-			
-			footer{
-			    clear: both;
-			    position: relative;
-			    float: right;
-			    z-index: 10;
-			    font-size:8pt;
+			footer {
+		        background: #fff;
+		        clear: both;
+		        bottom: 0px;
+		        left:0px;
+		        position: fixed;
+		        width: 100%;
 			    height: 1em;
 			    margin-top: -1em;
+			    font-size:8pt;
+			    text-align:right;
+		        overflow-x: hidden;
+		        z-index: 5;
+		    }
+
+	    	body {
+			    padding: 0;
+			    margin: 0;
 			}
 
+			html, body, #map {
+			    height: 90%;
+			}
+				
 			footer, a {
 				text-decoration:none;
 			}
+
+			header {
+			    text-align:center;
+			}
+
+			#nombreClients{
+		        background: #fff;
+		        clear: both;
+		        bottom: 0px;
+		        left:0px;
+		        position: fixed;
+		        width: 100%;
+			    height: 2em;
+			    margin-top: -1em;
+			    text-align:center;
+		        overflow: hidden;
+		    }
 		
 			</style>
     </head>
     <body>
 	
-		<header><p>Map the world</p></header>
+		<header><h1>Let's map the world</h1><h2>A real time web application</h2></header>
 		<div id="map"></div>
 		<center><div id="nombreClients"></div></center>
 		<footer>Copyright © 2016 <a href="https://fr.linkedin.com/in/loicmessal" >Loic Messal</a></footer>
@@ -138,11 +145,11 @@
             	//console.log(data.nombreClients + " clients présents");
             	if (data.nombreClients <= 1 )
             	{
-					divNombreClients.innerHTML = data.nombreClients + " client présent";
+					divNombreClients.innerHTML = data.nombreClients + " connected client";
             	}
             	else
             	{
-            		divNombreClients.innerHTML = data.nombreClients + " clients présents";
+            		divNombreClients.innerHTML = data.nombreClients + " connected clients";
             	}
             })
 			
