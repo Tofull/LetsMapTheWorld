@@ -4,7 +4,7 @@ var divNombreClients = document.getElementById("nombreClients");
 // Initialisation des tuiles
 var map = L.map('map').setView([48.85,2.35], 10);
 
-L.tileLayer('http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}',
+L.tileLayer('https://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}',
 {
     maxZoom: 18,
     subdomains:['mt0','mt1','mt2','mt3']
