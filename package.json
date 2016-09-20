@@ -1,16 +1,20 @@
 {
   "name": "letsmaptheworld",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Carte des personnes connectées à internet à travers le monde en temps réel",
-  "main": "app.js",
-  "dependencies": {
-    "socket.io": "^1.4.5"
-  },
-  "devDependencies": {
-    "socket.io": "^1.4.5"
-  },
+  "private": true,
   "scripts": {
-    "start": "node app.js"
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "express": "~4.13.4",
+    "jade": "~1.11.0",
+    "morgan": "~1.7.0",
+    "serve-favicon": "~2.3.0",
+    "socket.io": "^1.4.5"
   },
   "keywords": [
     "Map",
@@ -22,6 +26,6 @@
     "Monde",
     "Temps reel"
   ],
-  "author": "Loic Messal <loic.messal@ensg.eu>",
+  "author": "Loic Messal <messal.loic@gmail.com>",
   "license": "ISC"
 }

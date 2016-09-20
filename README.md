@@ -11,7 +11,9 @@ I wonder where are people on the Internet. First, I made this project with PHP (
 
 ## Installation
 
-On a server, simply launch : npm install 
+On a server, simply launch : 
+    $ npm install 
+    $ npm start
 
 ## Tests
 This app is working on : https://letsmaptheworld.herokuapp.com/

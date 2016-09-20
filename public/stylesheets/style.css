@@ -1,0 +1,55 @@
+footer {
+    background: #fff;
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+    height: 1.4em;
+    margin-top: -1em;
+    font-size:8pt;
+    left:0px;
+    overflow: hidden;
+    z-index: 50;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+html, body, #map {
+    height: 90%;
+}
+	
+footer, a {
+	text-decoration:none;
+	color: inherit;
+}
+
+header {
+    text-align:center;
+}
+
+.autor{
+	float:right;
+	padding: 2px 5px 2px 2px;
+}
+
+.source{
+	float:left;
+	text-decoration:none;
+	padding: 2px 2px 2px 5px;
+}
+
+#nombreClients{
+    background: #fff;
+    clear: both;
+    bottom: 0px;
+    left:0px;
+    position: fixed;
+    width: 100%;
+    height: 2em;
+    margin-top: -1em;
+    text-align:center;
+    overflow: hidden;
+}
