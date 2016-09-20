@@ -14,7 +14,7 @@ I wonder where are people on the Internet. First, I made this project with PHP (
 On a server, simply launch : npm install 
 
 ## Tests
-This app is working on : http://letsmaptheworld.herokuapp.com/
+This app is working on : https://letsmaptheworld.herokuapp.com/
 
 ## Contributors
 
