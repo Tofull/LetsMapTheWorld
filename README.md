@@ -18,7 +18,7 @@ This app is working on : https://letsmaptheworld.herokuapp.com/
 
 ## Contributors
 
-Loic Messal - French Student at National School of Geomatics : <loic.messal@ensg.eu>
+Loic Messal - French Student at National School of Geomatics : <messal.loic@gmail.com>
 
 
 ## License
