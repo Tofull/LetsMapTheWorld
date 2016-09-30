@@ -20,8 +20,10 @@ This app is working on : https://letsmaptheworld.herokuapp.com/
 
 ## Contributors
 
-Loic Messal - French Student at National School of Geomatics : <messal.loic@gmail.com>
+[Loic Messal](https://fr.linkedin.com/in/loicmessal "Profil LinkedIn") - French Student at National School of Geomatics : <messal.loic@gmail.com>
 
+
+I am only 21 years old. I have a lot of things to learn. Do not hesitate to send me your feedbacks to improve my experience.
 
 ## License
 
