@@ -11,9 +11,13 @@ I was wondering where are people on the Internet. First, I made this project wit
 
 ## Installation
 
-On a server, simply launch : 
-    $ npm install 
-    $ npm start
+On a server, simply launch : `
+```sh
+git clone https://github.com/Tofull/LetsMapTheWorld
+cd LetsMapTheWorld/
+npm install 
+npm start
+```
 
 ## Tests
 This app is working on : https://letsmaptheworld.herokuapp.com/
